@@ -8,7 +8,31 @@ const app = express();
 //this is to parse json coming from the client
 app.use(bodyParser.json());
 
-app.use(confRoutes)
+//header middleware to disable CORS restrictions -wildcard is for any domain req.
+
+// app.use((req, res, next)=> {
+//     res.setHeader('Access-Control-Allow-Origin', '*');
+//     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE');
+//     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+//     next();
+// });
+
+
+app.use((req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader(
+      'Access-Control-Allow-Methods',
+      'OPTIONS, GET, POST, PUT, PATCH, DELETE'
+    );
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    next();
+  });
+
+
+
+
+
+app.use(confRoutes);
 
 
 
