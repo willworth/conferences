@@ -1,4 +1,4 @@
-body {
+body, html  {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -6,9 +6,67 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-color: #009f93;
+  color: #03312e;
+  font-family: 'Inconsolata', monospace;
+  font-size: 1rem;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+
+.App {
+  display: grid;
+  grid-gap: 20px;
+  /* grid-template-columns: repeat(5, 1fr); */
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  */
+  grid-template-columns: 1fr, 3fr, 1fr; 
+  /* grid-template-rows: repeat(10, 1fr); */
+  text-align: center;
+  /* max-width: 900px; */
+  margin: 0 auto;
+}
+
+
+.Header {
+  background-color: #03312e;
+  color: #ccff66;
+  max-height: 10vh;
+  border-radius: 10px;
+  grid-column: 1 /-1;
+  font-size: 1.9rem;
+  
+
+}
+
+.Header > p {
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.ConferenceList {
+  background-color: #2589bd;
+  border-radius: 10px;
+  margin: 15px;
+  grid-column: 0/3;
+}
+
+.Listing {
+  border-radius: 10px;
+  background-color: #d4eb0b;
+  padding: 2px;
+  margin: 15px;
+  color: #03312e;
+  /* margin: auto; */
+}
+
+
+.shortlist {
+  grid-column: 3/-1;
 }
