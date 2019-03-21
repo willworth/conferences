@@ -3,41 +3,6 @@ exports.getConfs = (req, res, next) => {
         
             "conferences" : [
               {
-                "title" : "JS Kongress",
-                "date" : "Mon Mar 11 2019 00:00:00 GMT+0000 (UTC)",
-                "endDate" : "Tue Mar 12 2019 00:00:00 GMT+0000 (UTC)",
-                "url" : "https://js-kongress.com/",
-                "location" : "Munich, Germany",
-                "byline" : "Join the (r)evolution of Architectures!"
-                ,"cocUrl" : "https://js-kongress.com/code-of-conduct/"
-              },
-              {
-                "title" : "EmberConf",
-                "date" : "Mon Mar 18 2019 00:00:00 GMT+0000 (UTC)",
-                "endDate" : "Wed Mar 20 2019 00:00:00 GMT+0000 (UTC)",
-                "url" : "https://emberconf.com/",
-                "location" : "Portland, Oregon",
-                "byline" : "A gathering of the uniquely ambitious"
-                ,"cocUrl" : "https://emberconf.com/code-of-conduct.html"
-              },
-              {
-                "title" : "Pixels Camp v3.0",
-                "date" : "Thu Mar 21 2019 00:00:00 GMT+0000 (UTC)",
-                "endDate" : "Sat Mar 23 2019 00:00:00 GMT+0000 (UTC)",
-                "url" : "https://pixels.camp/",
-                "location" : "Lisbon, Portugal",
-                "byline" : "3 days of non-stop tech, talks, workshops and a 48-hour programming competition."
-                ,"cocUrl" : "https://pixels.camp/docs/code-of-conduct"
-              },
-              {
-                "title" : "UpFront",
-                "date" : "Fri Mar 22 2019 00:00:00 GMT+0000 (UTC)",
-                "url" : "https://upfrontconf.com/",
-                "location" : "Bridgewater Hall, Manchester",
-                "byline" : "A front-end conference for everyone who makes for the web"
-                ,"cocUrl" : "https://upfrontconf.com/code-of-conduct.html"
-              },
-              {
                 "title" : "Vue Conf US",
                 "date" : "Mon Mar 25 2019 00:00:00 GMT+0000 (UTC)",
                 "endDate" : "Wed Mar 27 2019 00:00:00 GMT+0000 (UTC)",
@@ -70,7 +35,7 @@ exports.getConfs = (req, res, next) => {
                 "endDate" : "Wed Apr 03 2019 00:00:00 GMT+0000 (UTC)",
                 "url" : "https://perfmattersconf.com/",
                 "location" : "Redwood City, California",
-                "byline" : "The building blocks of web performance&amp;#58; Getting to &quot;fast enough?&quot;"
+                "byline" : "The building blocks of web performance; Getting to 'fast enough'"
                 ,"cocUrl" : "https://perfmattersconf.com/code/"
               },
               {
@@ -131,7 +96,7 @@ exports.getConfs = (req, res, next) => {
                 "endDate" : "Fri Apr 12 2019 00:00:00 GMT+0000 (UTC)",
                 "url" : "https://webdirections.org/design",
                 "location" : "Melbourne, Australia",
-                "byline" : "Australia&#39;s Product Design Conference. Only in Melbourne, returns April 2019."
+                "byline" : "Australia's Product Design Conference. Only in Melbourne, returns April 2019."
                 ,"cocUrl" : "https://www.webdirections.org/web-directions-event-code-of-conduct"
               },
               {
@@ -281,7 +246,7 @@ exports.getConfs = (req, res, next) => {
                 "endDate" : "Fri Jun 14 2019 00:00:00 GMT+0000 (UTC)",
                 "url" : "https://cssday.nl/2019",
                 "location" : "Amsterdam, Netherlands",
-                "byline" : "Advanced CSS conference &amp; UI Special"
+                "byline" : "Advanced CSS conference; UI Special"
                 ,"cocUrl" : "https://cssday.nl/2019/contact#code-of-conduct"
               },
               {
@@ -290,7 +255,7 @@ exports.getConfs = (req, res, next) => {
                 "endDate" : "Sun Jun 16 2019 00:00:00 GMT+0000 (UTC)",
                 "url" : "https://2019.jsconf.asia/",
                 "location" : "Singapore",
-                "byline" : "Southeast Asia&#39;s largest web developer conference"
+                "byline" : "Southeast Asia's largest web developer conference"
                 ,"cocUrl" : "https://jsconf.com/codeofconduct.html"
               },
               {
@@ -299,7 +264,7 @@ exports.getConfs = (req, res, next) => {
                 "endDate" : "Fri Jun 21 2019 00:00:00 GMT+0000 (UTC)",
                 "url" : "https://webdirections.org/code",
                 "location" : "Melbourne, Australia",
-                "byline" : "Australia&#39;s conference for JavaScript Developers and Front End Engineers."
+                "byline" : "Australia's conference for JavaScript Developers and Front End Engineers."
                 ,"cocUrl" : "https://www.webdirections.org/web-directions-event-code-of-conduct"
               },
               {
@@ -440,7 +405,7 @@ exports.getConfs = (req, res, next) => {
                 "date" : "Fri Sep 06 2019 00:00:00 GMT+0000 (UTC)",
                 "url" : "https://www.componentsconf.com.au/",
                 "location" : "Melbourne, Australia",
-                "byline" : "Web &amp; mobile conference featuring all modern tech stacks"
+                "byline" : "Web & mobile conference featuring all modern tech stacks"
                 ,"cocUrl" : "https://docs.google.com/document/d/1fPahPsxd73mB8Od84J9HBBpd1DcFuCOa6u9ZQ-hr2VU/edit?usp=sharing"
               },
               {
@@ -537,7 +502,7 @@ exports.getConfs = (req, res, next) => {
                 "date" : "Wed Dec 04 2019 00:00:00 GMT+0000 (UTC)",
                 "url" : "https://2019.dotcss.io/",
                 "location" : "Paris, France",
-                "byline" : "The world&#39;s largest CSS conference"
+                "byline" : "The world's largest CSS conference"
                 ,"cocUrl" : "https://2019.dotcss.io/codeofconduct/"
               },
               {
@@ -546,7 +511,7 @@ exports.getConfs = (req, res, next) => {
                 "endDate" : "Fri Dec 06 2019 00:00:00 GMT+0000 (UTC)",
                 "url" : "https://2019.dotjs.io/",
                 "location" : "Paris, France",
-                "byline" : "The world&#39;s largest JavaScript conference"
+                "byline" : "The world's largest JavaScript conference"
                 ,"cocUrl" : "https://2019.dotjs.io/codeofconduct/"
               },
               {
