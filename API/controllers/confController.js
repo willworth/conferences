@@ -65,7 +65,7 @@ exports.getConfs = (req, res, next) => {
                 ,"cocUrl" : "https://www.israel.yglfconf.com/codeofconduct"
               },
               {
-                "title" : "JAMstack_conf_nyc",
+                "title" : "JAMstack conf nyc",
                 "date" : "Tue Apr 09 2019 08:00:00 GMT+0000 (UTC)",
                 "endDate" : "Wed Apr 10 2019 16:00:00 GMT+0000 (UTC)",
                 "url" : "https://jamstackconf.com/nyc/",

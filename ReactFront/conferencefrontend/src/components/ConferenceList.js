@@ -42,7 +42,7 @@ componentWillMount () {
   render() {
     return (
       <div className="ConferenceList">
-        <p>This is the ConferenceList Component</p>
+        {/* <p>This is the ConferenceList Component</p> */}
         {this.state.conferences}
       </div>
     );
