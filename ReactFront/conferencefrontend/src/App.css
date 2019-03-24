@@ -7,7 +7,8 @@
 body {
   margin: 40px;
   font-family: 'Open Sans', 'sans-serif';
-  background-color: darkslategray;
+  
+  background-color: #394053;
   color: #444;
   /* hgjsldogh */
   /* max-width: 940px; */
@@ -31,7 +32,7 @@ p {
 
 a {
   text-decoration: none;
-  color: blanchedalmond;
+  color: #e26d5c;
 }
 
 /* no grid support? */
@@ -56,11 +57,12 @@ a {
 }
 
 .Listing {
-  background-color: teal;
+  background-color: 394053;
   color: gold;
   padding: 10px;
-  border: 2px solid goldenrod;
-  
+  border: 5px groove silver;
+  border-style:double;
+  margin-bottom: 5px;
 }
 
 
@@ -69,14 +71,18 @@ a {
 .footer {
   margin-left: 5px;
   margin-right: 5px;
+  margin-bottom: 5px;
+  /* padding: 10px; */
   flex: 0 1 100%;
   grid-column: 1 / -1;
-  background-color: black;
-  border: 2px double goldenrod;
-  color: blanchedalmond;
+  background-color: #e26d5c;
+  border: 5px groove silver;
+  color: black;
+  font-family: serif;
+  font-weight: 400;
   font-size: 2rem;
   text-align: center;
-border-radius: 15px;
+/* border-radius: 15px; */
 padding: 5px;
 top: 10px;
 }

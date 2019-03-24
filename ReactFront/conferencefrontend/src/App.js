@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from '../src/components/Header';
 import './App.css';
 import ConferenceList from "../src/components/ConferenceList"
-import Shortlist from "./components/Shortlist"
+// import Shortlist from "./components/Shortlist"
 
 class App extends Component {
   render() {
